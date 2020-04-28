@@ -1,4 +1,2 @@
-// import { registerUrl } from './helpers/url-manager';
-
-// // incident related routes
-// registerUrl('landing', './containers/landing');
+import { registerUrl } from './helpers/url-manager';
+registerUrl('landing', '/landing');
