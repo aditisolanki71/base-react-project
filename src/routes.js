@@ -1,4 +1,3 @@
-/* eslint react/no-multi-comp: 0 */
 import React from 'react';
 import { Route } from 'react-router';
 import { getUrl as getRoutePath } from './helpers/url-manager';
@@ -8,7 +7,6 @@ import { getUrl as getRoutePath } from './helpers/url-manager';
 import RouterLoader from './components/route-loader';
 import './register-routes';
 
-/* eslint-enable */
 
 export default (hostName, pathName, cookie) => {
   let component;

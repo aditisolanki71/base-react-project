@@ -1,4 +1,3 @@
-/*eslint-disable */
 import React, { Fragment } from 'react';
 class LandingPage extends React.Component {
   render() {
@@ -11,6 +10,4 @@ class LandingPage extends React.Component {
     );
   }
 }
-
-//export default connect(mapStateToProps, mapDispatchToProps)(LandingPage);
 export default LandingPage;
